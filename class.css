@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.Desktop {
+    border: 0px;
+    border-radius: 10px 10px 0 0;
+    width: 1480px;
+    margin: auto;
+    background: rgb(255, 255, 255);
+    padding: 0 0;
+
+}
+
+.NavBar{
+    display: inline-flex;
+    margin-top:48px ;
+    padding: 0;
+}
+
+
+.Text1{
+    font-family: 'Inter', sans-serif;
+    font-style:bold;
+    font-size: 20px;
+    color: #272D38;
+    font-weight: 700;
+}
+
+.Text{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    color: #272D38;
+    font-weight: 400;
+}
+
+
+.h1{
+    margin-left: 188px;
+    margin-right: 502px;
+}
+.h2{
+    margin-right: 44px ;
+}
+.h3{
+    margin-right: 44px;
+}
+
+.h5{
+    margin-left: 50px;
+}
