@@ -1,12 +1,16 @@
-/* body{
+body{
+    font-family: 'Inter', sans-serif;
+    margin: 0px;
 }
- */
 
+.Desktop{
+    margin: 46px;
+}
 .NavBar{
     display: flex;
-    margin: 46px auto;
+    margin: auto;
     align-items: center;
-    gap: 504.81px
+    gap: 504px
 }
 
 a{
@@ -14,6 +18,7 @@ a{
 }
 
 .b1{
+    margin: 0px;
     display: flex;
     gap: 44px;
 }
@@ -23,14 +28,12 @@ li{
 }
 
 .logo{
-    font-family: 'Inter', sans-serif;
     font-size: 20px;
     color: #272D38;
     font-weight: 700;
 }
 
 .Text{
-    font-family: 'Inter', sans-serif;
     font-size: 18px;
     color: #272D38;
     font-weight: 400;
