@@ -4,13 +4,26 @@ body{
 }
 
 .Desktop{
-    margin: 46px;
+    width: 1076px;
+    margin: 46px auto;
 }
+
+.circle {
+    width: 679px;
+    height: 679px;
+    border-radius: 50%;
+    background: url("circle.svg") no-repeat center center;
+    background-size: 679px 679px;
+    position: absolute;
+    top: -324px;
+    left: -221px;
+}
+
 .NavBar{
     display: flex;
-    margin: auto;
     align-items: center;
-    gap: 504px
+    gap: 504px;
+    height: 24px;
 }
 
 a{
@@ -18,7 +31,6 @@ a{
 }
 
 .b1{
-    margin: 0px;
     display: flex;
     gap: 44px;
 }
@@ -28,6 +40,7 @@ li{
 }
 
 .logo{
+    white-space: nowrap;
     font-size: 20px;
     color: #272D38;
     font-weight: 700;
@@ -37,4 +50,58 @@ li{
     font-size: 18px;
     color: #272D38;
     font-weight: 400;
+}
+
+.HeroSection{
+    display:flex;
+    gap: 75px;
+    width: 1065px;
+}
+
+.Block1Image{
+    margin-top: 97px;
+}
+.Block1{
+    margin: 141px 0 0 0;
+}
+.Bloc1kBox1{
+    margin: 0px;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 100%;
+}
+
+.Block1Box2{
+    margin: 24px 0 0 0;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 0px;
+    line-height: 28px;
+}
+
+.ContactButton{
+    margin-top: 49px;
+    background-color: #8EADD5;
+    border-radius: 8px;
+    width: 167px;
+    height: 48px;
+   border: 0px;
+   padding: 0px;
+}
+
+.ContactButtonText{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.trusted{
+    width: 227px;
+    margin:157px auto 0;
+}
+
+.CompaniesSection{
+    width: 915px;
+    margin: 16px auto 0;
 }
