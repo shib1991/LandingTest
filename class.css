@@ -105,3 +105,27 @@ li{
     width: 915px;
     margin: 16px auto 0;
 }
+
+.BrandingSection{
+    width: 1065px;
+    margin-top:136px;
+    display: flex;
+    gap: 179.31px;
+}
+
+.BrandingSectionTextBox1{
+    margin: 97px 0 0 0;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+}
+.BrandingSectionTextBox2{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 25.59px 0 0 0;
+}
+
+.BrandingSectionImg{
+    margin-top: 45.91px 0 0 0;
+}
