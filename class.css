@@ -1,9 +1,9 @@
-body{
+body {
     font-family: 'Inter', sans-serif;
     margin: 0px;
 }
 
-.Desktop{
+.Desktop {
     width: 1076px;
     margin: 46px auto;
 }
@@ -19,113 +19,261 @@ body{
     left: -221px;
 }
 
-.NavBar{
+.NavBar {
     display: flex;
     align-items: center;
     gap: 504px;
     height: 24px;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.b1{
+.b1 {
     display: flex;
     gap: 44px;
 }
 
-li{
+li {
     list-style-type: none;
 }
 
-.logo{
+.logo {
     white-space: nowrap;
     font-size: 20px;
     color: #272D38;
     font-weight: 700;
 }
 
-.Text{
+.Text {
     font-size: 18px;
     color: #272D38;
     font-weight: 400;
 }
 
-.HeroSection{
-    display:flex;
+.HeroSection {
+    display: flex;
     gap: 75px;
     width: 1065px;
 }
 
-.Block1Image{
+.Block1Image {
     margin-top: 97px;
 }
-.Block1{
+
+.Block1 {
     margin: 141px 0 0 0;
 }
-.Bloc1kBox1{
+
+.Bloc1kBox1 {
     margin: 0px;
     font-size: 64px;
     font-weight: 700;
     line-height: 100%;
+    color: #272D38;
 }
 
-.Block1Box2{
+.Block1Box2 {
     margin: 24px 0 0 0;
     font-weight: 400;
     font-size: 18px;
     padding: 0px;
     line-height: 28px;
+    color: #272D38;
 }
 
-.ContactButton{
+.ContactButton {
     margin-top: 49px;
     background-color: #8EADD5;
     border-radius: 8px;
     width: 167px;
     height: 48px;
-   border: 0px;
-   padding: 0px;
+    border: 0px;
+    padding: 0px;
 }
 
-.ContactButtonText{
+.ContactButtonText {
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     color: #FFFFFF;
 }
 
-.trusted{
+.trusted {
     width: 227px;
-    margin:157px auto 0;
+    margin: 157px auto 0;
 }
 
-.CompaniesSection{
+.CompaniesSection {
     width: 915px;
     margin: 16px auto 0;
 }
 
-.BrandingSection{
+.BrandingSection {
     width: 1065px;
-    margin-top:136px;
+    margin-top: 136px;
     display: flex;
     gap: 179.31px;
 }
 
-.BrandingSectionTextBox1{
+.BrandingSectionTextBox1 {
     margin: 97px 0 0 0;
     font-weight: 700;
     font-size: 48px;
     line-height: 100%;
+    color: #272D38;
 }
-.BrandingSectionTextBox2{
+
+.BrandingSectionTextBox2 {
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
     margin: 25.59px 0 0 0;
+    color: #272D38;
 }
 
-.BrandingSectionImg{
-    margin-top: 45.91px 0 0 0;
+.ArrowButton {
+    margin-top: 45.91px;
+    border: 0px;
+    background-color: #FFFFFF;
+    color: #272D38;
+}
+
+.CustomeSection {
+    width: 1065px;
+    margin-top: 136px;
+    display: flex;
+    gap: 179.31px;
+}
+
+.CustomSectionTexBox1 {
+    margin: 97px 0 0 0;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    color: #272D38;
+}
+
+.CustomSectionTexBox2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 25.59px 0 0 0;
+    color: #272D38;
+}
+
+.TestimonialSection {
+    width: 1065px;
+    margin-top: 136px;
+}
+
+.TestimonialsHeader {
+    width: 122px;
+    margin: auto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27.5px;
+    color: #272D38;
+
+}
+
+.Review {
+    margin: 16px auto;
+    width: 435.69px;
+}
+
+.ReviewText {
+    margin: 0px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #272D38;
+}
+
+.ReviewSection {
+    margin-top: 38.65px;
+    display: flex;
+    gap: 15px;
+}
+
+.Testimonials {
+    background-color: #F6F6F6;
+    border-radius: 20px;
+}
+
+.TestimonialsImg {
+    width: 129px;
+    margin-left: 108px;
+    margin-top: 32px;
+}
+
+.TestimonialsName {
+    text-align: center;
+    margin-top: 8px;
+}
+
+.TestimonialsNameText {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #272D38;
+    margin: 0px;
+}
+
+.TestimonialsTextBox {
+    margin: 27px 32px 32px 32px;
+}
+
+.TestimonialsText {
+    text-align: center;
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    color: #272D38;
+}
+
+.ContactSection{
+    background-color: #F6F6F6;
+    display: flex;
+    gap: 90px;
+    width: 1065px;
+    margin-top: 136px;
+    border-radius: 20px;
+}
+
+.ContactSectionBlock1{
+    margin-left: 75px;
+}
+
+.ContactSectionBlock2{
+    margin-top: 100.1px;
+}
+
+.ContactSectionBox1{
+margin: 0px;
+font-size: 48px;
+font-weight: 700;
+line-height: 48px;
+color: #272D38;
+}
+
+.ContactSectionBox2{
+    margin: 16.02px 0 0 0;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+color: #272D38;
+}
+
+.ContactSectionContactButton{
+    margin-top: 32.03px;
+    background-color: #8EADD5;
+    border-radius: 8px;
+    width: 167px;
+    height: 48px;
+    border: 0px;
+    padding: 0px; 
 }
