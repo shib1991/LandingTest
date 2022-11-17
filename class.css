@@ -261,7 +261,7 @@ color: #272D38;
 }
 
 .ContactSectionBox2{
-    margin: 16.02px 0 0 0;
+margin: 16.02px 0 0 0;
 font-size: 16px;
 font-weight: 400;
 line-height: 28px;
@@ -276,4 +276,14 @@ color: #272D38;
     height: 48px;
     border: 0px;
     padding: 0px; 
+}
+
+
+.Footer{
+    width: 1440px;
+    margin-top: 138.57px;
+}
+.FooterFlex{
+    margin: 105px;
+    display: flex;
 }
