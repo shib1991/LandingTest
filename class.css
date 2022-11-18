@@ -91,6 +91,12 @@ li {
     height: 48px;
     border: 0px;
     padding: 0px;
+    cursor: pointer;
+    
+}
+.ContactButton:hover{
+    background:hsl(214, 61%, 58%);
+    color:white;
 }
 
 .ContactButtonText {
@@ -268,7 +274,7 @@ line-height: 28px;
 color: #272D38;
 }
 
-.ContactSectionContactButton{
+.ContactSectionButton{
     margin-top: 32.03px;
     background-color: #8EADD5;
     border-radius: 8px;
@@ -276,6 +282,11 @@ color: #272D38;
     height: 48px;
     border: 0px;
     padding: 0px; 
+    cursor: pointer;
+}
+.ContactSectionButton:hover{
+    background:hsl(214, 61%, 58%);
+    color:white;
 }
 
 
