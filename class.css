@@ -291,10 +291,41 @@ color: #272D38;
 
 
 .Footer{
-    width: 1440px;
     margin-top: 138.57px;
 }
 .FooterFlex{
-    margin: 105px;
     display: flex;
+    gap: 107px
+}
+
+
+.FooterHead{
+font-size: 18px;
+font-weight: 700;
+line-height: 28px;
+color: #272D38;
+}
+
+
+.FooterText{
+font-size: 16px;
+font-weight: 300;
+line-height: 24px;
+color: #272D38;
+margin: 0px;
+}
+
+.FooterBox:first-child{
+    margin-left:183.32px ;
+}
+.Ground{
+width: 319px;
+margin: 0 auto;
+}
+.GroundText{
+margin-top: 110px ;
+font-size: 16px;
+font-weight: 300;
+line-height: 16px;
+color: #272D38;
 }
