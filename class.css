@@ -294,8 +294,10 @@ color: #272D38;
     margin-top: 138.57px;
 }
 .FooterFlex{
+    margin: 0 auto;
+    width: 1440px;
     display: flex;
-    gap: 107px
+    gap: 72px
 }
 
 
