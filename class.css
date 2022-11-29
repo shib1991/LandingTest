@@ -1,11 +1,19 @@
 body {
     font-family: 'Inter', sans-serif;
-    margin: 0px;
 }
 
 .Desktop {
     width: 1076px;
-    margin: 46px auto;
+    margin: 0 auto;
+
+}
+
+@media (max-width:429px) {
+    .Desktop {
+        width: 248px;
+        margin: 0 auto;
+    }
+
 }
 
 .circle {
@@ -26,14 +34,23 @@ body {
     height: 24px;
 }
 
-a {
-    text-decoration: none;
-}
-
 .b1 {
     display: flex;
     gap: 44px;
 }
+
+@media (max-width:429px) {
+    .b1 {
+        display: none;
+    }
+
+}
+
+a {
+    text-decoration: none;
+}
+
+
 
 li {
     list-style-type: none;
@@ -58,12 +75,28 @@ li {
     width: 1065px;
 }
 
+@media (max-width:429px) {
+    .HeroSection {
+        flex-direction: column;
+        width: 380px;
+        gap: 38px;
+    }
+
+}
+
 .Block1Image {
     margin-top: 97px;
 }
 
 .Block1 {
-    margin: 141px 0 0 0;
+    margin: 141px auto 0 0;
+}
+
+@media (max-width:429px) {
+    .Block1 {
+        text-align: center;
+    }
+
 }
 
 .Bloc1kBox1 {
@@ -72,6 +105,16 @@ li {
     font-weight: 700;
     line-height: 100%;
     color: #272D38;
+}
+
+@media (max-width:429px) {
+    .Bloc1kBox1 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 100%;
+    }
+
 }
 
 .Block1Box2 {
@@ -83,6 +126,16 @@ li {
     color: #272D38;
 }
 
+@media (max-width:429px) {
+    .Bloc1kBox2 {
+        font-style: normal;
+        font-weight: 400px;
+        font-size: 16px;
+        line-height: 100%;
+    }
+
+}
+
 .ContactButton {
     margin-top: 49px;
     background-color: #8EADD5;
@@ -92,11 +145,12 @@ li {
     border: 0px;
     padding: 0px;
     cursor: pointer;
-    
+
 }
-.ContactButton:hover{
-    background:hsl(214, 61%, 58%);
-    color:white;
+
+.ContactButton:hover {
+    background: hsl(214, 61%, 58%);
+    color: white;
 }
 
 .ContactButtonText {
@@ -106,21 +160,68 @@ li {
     color: #FFFFFF;
 }
 
+@media (max-width:429px) {
+    .ContactButtonText {
+        font-size: 14px;
+    }
+}
+
+
 .trusted {
-    width: 227px;
-    margin: 157px auto 0;
+    width: 915px;
+    margin: 157px auto;
+}
+
+@media (max-width:429px) {
+    .trusted {
+        width: 380px;
+    }
+}
+
+.trustedText {
+    text-align: center;
 }
 
 .CompaniesSection {
-    width: 915px;
-    margin: 16px auto 0;
+    margin: 0 auto;
+    padding: 19px;
+    display: flex;
+    gap: 115px;
+    border-radius: 8px;
+    background-color: #F6F6F6;
 }
+
+@media (max-width:429px) {
+    .CompaniesSection {
+        gap: 29px;
+        width: 348px;
+    }
+
+}
+
+@media (max-width:429px) {
+    .image {
+        width: 100%;
+    }
+
+}
+
 
 .BrandingSection {
     width: 1065px;
     margin-top: 136px;
     display: flex;
     gap: 179.31px;
+}
+
+@media (max-width:429px) {
+    .BrandingSection {
+        flex-direction: column-reverse;
+        width: 380px;
+        gap: 24px;
+        text-align: center;
+    }
+
 }
 
 .BrandingSectionTextBox1 {
@@ -131,12 +232,32 @@ li {
     color: #272D38;
 }
 
+@media (max-width:429px) {
+    .BrandingSectionTextBox1 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 100%;
+    }
+
+}
+
 .BrandingSectionTextBox2 {
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
     margin: 25.59px 0 0 0;
     color: #272D38;
+}
+
+@media (max-width:429px) {
+    .BrandingSectionTextBox2 {
+        font-style: normal;
+        font-weight: 400px;
+        font-size: 14px;
+        line-height: 100%;
+    }
+
 }
 
 .ArrowButton {
@@ -146,11 +267,29 @@ li {
     color: #272D38;
 }
 
+@media (max-width:429px) {
+    .ArrowButton {
+        transform: rotate(90deg);
+    }
+
+}
+
 .CustomeSection {
     width: 1065px;
     margin-top: 136px;
     display: flex;
     gap: 179.31px;
+}
+
+@media (max-width:429px) {
+    .CustomeSection {
+        flex-direction: column;
+        width: 380px;
+        gap: 24px;
+        text-align: center;
+        margin-top: 24px;
+
+    }
 }
 
 .CustomSectionTexBox1 {
@@ -161,6 +300,17 @@ li {
     color: #272D38;
 }
 
+@media (max-width:429px) {
+    .CustomSectionTexBox1 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 100%;
+        margin-top: 24px;
+    }
+
+}
+
 .CustomSectionTexBox2 {
     font-weight: 400;
     font-size: 16px;
@@ -169,9 +319,27 @@ li {
     color: #272D38;
 }
 
+@media (max-width:429px) {
+    .CustomSectionTexBox2 {
+        font-style: normal;
+        font-weight: 400px;
+        font-size: 14px;
+        line-height: 100%;
+    }
+
+}
+
 .TestimonialSection {
     width: 1065px;
     margin-top: 136px;
+}
+
+@media (max-width:429px) {
+    .TestimonialSection {
+        width: 380px;
+        margin-top: 120px;
+    }
+
 }
 
 .TestimonialsHeader {
@@ -184,10 +352,19 @@ li {
 
 }
 
+@media(max-width:429px) {
+    .TestimonialsHeader {
+        width: 88px;
+        font-size: 12px;
+    }
+}
+
 .Review {
     margin: 16px auto;
     width: 435.69px;
 }
+
+
 
 .ReviewText {
     margin: 0px;
@@ -198,10 +375,30 @@ li {
     color: #272D38;
 }
 
+@media (max-width:429px) {
+    .ReviewText {
+        width: 380px;
+        font-size: 32px;
+        line-height: 32px;
+        text-align: center;
+        line-height: 32px;
+        text-transform: capitalize;
+    }
+}
+
 .ReviewSection {
     margin-top: 38.65px;
     display: flex;
     gap: 15px;
+}
+
+@media (max-width:429px) {
+    .ReviewSection {
+        margin-top: 16px;
+        flex-direction: column;
+        gap: 40px;
+    }
+
 }
 
 .Testimonials {
@@ -241,7 +438,7 @@ li {
     color: #272D38;
 }
 
-.ContactSection{
+.ContactSection {
     background-color: #F6F6F6;
     display: flex;
     gap: 90px;
@@ -250,84 +447,157 @@ li {
     border-radius: 20px;
 }
 
-.ContactSectionBlock1{
+@media (max-width:429px) {
+    .ContactSection {
+        width: 380px;
+        text-align: center;
+        margin-top: 90px;
+    }
+
+}
+
+.ContactSectionBlock1 {
     margin-left: 75px;
 }
 
-.ContactSectionBlock2{
+@media(max-width:429px) {
+    .ContactSectionBlock1 {
+        display: none;
+    }
+}
+
+.ContactSectionBlock2 {
     margin-top: 100.1px;
 }
 
-.ContactSectionBox1{
-margin: 0px;
-font-size: 48px;
-font-weight: 700;
-line-height: 48px;
-color: #272D38;
+@media (max-width:429px) {
+    .ContactSectionBlock2 {
+        margin-top: 56px;
+    }
 }
 
-.ContactSectionBox2{
-margin: 16.02px 0 0 0;
-font-size: 16px;
-font-weight: 400;
-line-height: 28px;
-color: #272D38;
+.ContactSectionBox1 {
+    margin: 0px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #272D38;
 }
 
-.ContactSectionButton{
+@media (max-width:429px) {
+    .ContactSectionBox1 {
+        margin: 0 auto;
+        width: 309px;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 100%;
+    }
+
+}
+
+.ContactSectionBox2 {
+    margin: 16.02px 0 0 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #272D38;
+}
+
+.ContactSectionButton {
     margin-top: 32.03px;
     background-color: #8EADD5;
     border-radius: 8px;
     width: 167px;
     height: 48px;
     border: 0px;
-    padding: 0px; 
+    padding: 0px;
     cursor: pointer;
 }
-.ContactSectionButton:hover{
-    background:hsl(214, 61%, 58%);
-    color:white;
+@media (max-width:429px){
+    .ContactSectionButton{
+        margin-bottom: 49px;
+    }
+}
+
+.ContactSectionButton:hover {
+    background: hsl(214, 61%, 58%);
+    color: white;
 }
 
 
-.Footer{
-    margin-top: 138.57px;
-}
-.FooterFlex{
-    margin: 0 auto;
+.Footer {
     width: 1440px;
+    margin-top: 138px;
+    background-color: #F6F6F6;
+}
+
+@media (max-width:429px) {
+    .Footer{
+        width: 429px;
+margin-top: 128px;
+    }
+    
+}
+
+.FooterFlex {
+    margin: 0 auto;
     display: flex;
-    gap: 72px
+    gap: 177px
 }
 
-
-.FooterHead{
-font-size: 18px;
-font-weight: 700;
-line-height: 28px;
-color: #272D38;
-}
-
-
-.FooterText{
-font-size: 16px;
-font-weight: 300;
-line-height: 24px;
-color: #272D38;
-margin: 0px;
+@media (max-width:429px) {
+    .FooterFlex{
+        flex-direction: column;
+        gap: 72px;
+        text-align: center;
+        width: 190px;
+    }
+    
 }
 
 .FooterBox:first-child{
-    margin-left:183.32px ;
+    margin-bottom: 34px;
+
 }
-.Ground{
-width: 319px;
-margin: 0 auto;
+
+.FooterHead {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #272D38;
+    margin-bottom: 34px;
 }
-.GroundText{
-margin-top: 110px ;
-font-size: 16px;
-font-weight: 300;
-line-height: 16px;
-color: #272D38;
+
+@media (max-width:429px) {
+    .FooterHead{
+        margin: 0 0 34 0;
+    }
+    
+}
+
+
+.FooterText {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #272D38;
+}
+@media (max-width:429px) {
+    .FooterText{
+        margin: ;
+    }
+    
+}
+
+.Ground {
+    width: 319px;
+    margin: 0 auto;
+}
+
+.GroundText {
+    margin-top: 110px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 16px;
+    color: #272D38;
 }
